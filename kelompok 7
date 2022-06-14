@@ -1,5 +1,12 @@
 #include<iostream>
 using namespace std;
-int main(){
-cout<<" hello world";
-}
+void header(){
+ cout<<" ---------------------------------------------------------------------------"<<endl;
+ cout<<"*                                                                          *"<<endl;
+ cout<<"*                     Selamat Datang dijalan Tol                           *"<<endl;
+ cout<<"*                Jalan Tol Lampung menuju Palembang                        *"<<endl;
+ cout<<"*                     Semoga Selamat Sampai Tujuan                         *"<<endl;
+ cout<<"*                                                                          *"<<endl;
+cout<<"*--------------------------------------------------------------------------*"<<endl<<endl<<endl;
+ }
+ 
