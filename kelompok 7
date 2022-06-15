@@ -190,14 +190,14 @@ int main(){
 	else if(pilihan == 2){
             cout << "No. Antrian : " << nomer[head] << endl;
             Keluar();
-            cout << "Silahkan! Anda Dipanggil!" << endl;
+            cout << "Silahkan Anda Melalui Jalur yang Telah Dipilih!" << endl;
         }
         else if(pilihan == 3){
             View();
         }
         else if(pilihan == 4){
             Clear();
-            cout<<"Antrian Berhasil dikosongkan ! ";
+            cout<<"Antrian diKosongkan ! ";
         }
         else if(pilihan == 5){
         }
@@ -205,7 +205,7 @@ int main(){
             cout << "Input yang dimasukan anda salah ! "<< endl;
         }
         getch();
-    }
-    while(pilihan!=5);
-}
+        }
+       while(pilihan!=5);
+       }
         
