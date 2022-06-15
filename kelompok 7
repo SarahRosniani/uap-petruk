@@ -1,4 +1,7 @@
 #include<iostream>
+#include <windows.h>
+#include <conio.h>
+#define MAX 10
 using namespace std;
 void header(){
  cout<<" ---------------------------------------------------------------------------"<<endl;
@@ -84,7 +87,7 @@ int main(){
 	
     int pilihan, urutan;
     do{
-        system("cls");
+        
             cout << "\n==== PROGRAM ANTRIAN LOKET TOL ====="<<endl;
             cout << "================================="<<endl;
             cout << "|1. Tambahkan Antrian            |"<<endl;
