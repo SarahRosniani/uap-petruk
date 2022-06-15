@@ -186,4 +186,26 @@ int main(){
                 k++;
             }
         }
+	
+	else if(pilihan == 2){
+            cout << "No. Antrian : " << nomer[head] << endl;
+            Keluar();
+            cout << "Silahkan! Anda Dipanggil!" << endl;
+        }
+        else if(pilihan == 3){
+            View();
+        }
+        else if(pilihan == 4){
+            Clear();
+            cout<<"Antrian Berhasil dikosongkan ! ";
+        }
+        else if(pilihan == 5){
+        }
+        else{
+            cout << "Input yang dimasukan anda salah ! "<< endl;
+        }
+        getch();
+    }
+    while(pilihan!=5);
+}
         
