@@ -115,7 +115,7 @@ int main(){
    
 
 
-cout<<"Masukan identitas anda !!!"<<'\n'<<endl;
+      cout<<"Masukan identitas anda !!!"<<'\n'<<endl;
       cout<<"Nama       : ";cin>>nama;
       cout<<"Alamat     : ";cin>>alamat;
 
@@ -125,19 +125,19 @@ cout<<"Masukan identitas anda !!!"<<'\n'<<endl;
       cout<<"\t\t==========================="<<endl<<endl;
       
        cout<<"1. Jalur Mobil Pribadi       : Rp. 10000"<<endl;
-	      cout<<"2. Jalur Truck               : Rp. 15000"<<endl;
+       cout<<"2. Jalur Truck               : Rp. 15000"<<endl;
        cout<<"3. Jalur puso                : Rp. 20000"<<endl;
        cout<<"4. Jalur Kontainer           : Rp. 25000"<<endl<<endl;
         
-	      	cout<<"Masukkan nomor Plat                                = ";cin>>plat;
+	     cout<<"Masukkan nomor Plat                                = ";cin>>plat;
         cout<<"Masukkan jalur yang anda lalui                           = ";cin>>Pilihan;
           
  		switch(Pilihan){
  			
-		case 1:
-		  double uang,total;
-	      cout<<"Jalur gerbang yang anda lalui saat ini adalah jalur 2"<<endl;
-	      cout<<"Saldo jalur 2 adalah                               = Rp.10000"<<endl;
+	case 1:
+	      double uang,total;
+	      cout<<"Jalur Tol yang anda lalui saat ini adalah jalur 1"<<endl;
+	      cout<<" Tarif jalur 1 adalah                               = Rp.10000"<<endl;
 	      cout<<"Masukkan uang anda                                 = Rp.";cin>>uang;
 	      total=uang-jalur[1];
 	      cout<<"________________________________________________________________ -"<<endl;
@@ -147,8 +147,8 @@ cout<<"Masukan identitas anda !!!"<<'\n'<<endl;
 	      
 	    case 2:
 	      
-	      cout<<"Jalur gerbang yang anda lalui saat ini adalah jalur 1" <<endl;
-	      cout<<"Saldo jalur 1 anda adalah                          = Rp.15000"<<endl;
+	      cout<<"Jalur Tol yang anda lalui saat ini adalah jalur 2" <<endl;
+	      cout<<"Tarif jalur 2 anda adalah                          = Rp.15000"<<endl;
 	      cout<<"Masukkan uang anda                                 = Rp.";cin>>uang;
 	      total=uang-jalur[2];
 	      cout<<"________________________________________________________________ -"<<endl;
@@ -158,8 +158,8 @@ cout<<"Masukan identitas anda !!!"<<'\n'<<endl;
 	      
 	      
 	case 3:
-	      cout<<"Jalur gerbang yang anda lalui saat ini adalah jalur 3"<<endl;
-	      cout<<"Saldo jalur 3 adalah                                 = Rp.20000"<<endl;
+	      cout<<"Jalur Tol yang anda lalui saat ini adalah jalur 3"<<endl;
+	      cout<<"Tarif jalur 3 adalah                                 = Rp.20000"<<endl;
 	      cout<<"Masukkan uang anda                                       = Rp.";cin>>uang;
 	      total=uang-jalur[3];
 	      cout<<"________________________________________________________________ -"<<endl;
@@ -169,8 +169,8 @@ cout<<"Masukan identitas anda !!!"<<'\n'<<endl;
 
 	                 
 	case 4:
-	      cout<<"Jalur gerbang yang anda lalui saat ini adalah jalur 5"<<endl;
-	      cout<<"Saldo jalur 5 adalah                                 = Rp.25000"<<endl;
+	      cout<<"Jalur Tol yang anda lalui saat ini adalah jalur 5"<<endl;
+	      cout<<"Tarif jalur 5 adalah                                 = Rp.25000"<<endl;
 	      cout<<"Masukkan uang anda                                       = Rp.";cin>>uang;
 	      total=uang-jalur[5];
 	      cout<<"________________________________________________________________ -"<<endl;
@@ -178,10 +178,10 @@ cout<<"Masukan identitas anda !!!"<<'\n'<<endl;
 	      cout<<"Hati-hati dalam perjalanan semoga selamat sampai tujuan !!!"<<endl;
 	      break;
 	      
-			default: 
+	default: 
 	      cout<<"Bukan Jalur tol yang dilalui"<<endl;
 	      break;
-}
+     }
                 cout << "Antian yang Menunggu : "<< tail<<endl;
                 k++;
             }
